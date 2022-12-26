@@ -1,9 +1,10 @@
-def replace3by5(n):
-    n=str(n)
-    n=n.replace('3','#')
-    n=n.replace('5','3')
-    n=n.replace('#','5')
+def replacedigits(n,i,j):
+    n=n.replace('i','#')
+    n=n.replace('j','i')
+    n=n.replace('#','j')
     return n
-inp=int(input())
-print(replace3by5(inp))
+inp=input()
+i=input()
+j=input()
+print(replacedigits(inp,i,j))
     
