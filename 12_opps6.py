@@ -8,6 +8,7 @@ class Rectangle:
         return (self.length+self.width)*2
     def calculateArea(self):
         return self.length*self.width
+    
 length=int(input())
 width=int(input())
 try:
